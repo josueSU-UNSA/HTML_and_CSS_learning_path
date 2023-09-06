@@ -1,0 +1,84 @@
+#div_main_message{
+
+    background-color: crimson;
+    
+    /*border-width: 10px;
+    border-color: #4CAF50;
+    border-style:groove;
+    
+    width: 800%;
+    padding:30px 30px 30px 30px;
+    margin: 50px 50px 60px 50px;
+    */
+}
+#main_img{
+    /*Tanto el margin y padding en una linea es en 
+    sentido horario desde el lado superior*/
+    /*-------------------------------------------------------*/
+    /*Padding es la distancia entre un conetenedor y su 
+    contenido
+    se peude ver mejor cuando le das un background color
+    al img y agregas padding asi:*/
+    padding: 20px 40px 50px 60px;
+
+    /*lo q se obtendra es una imagen distanciada entre el elemento
+    y el borde*/
+    /*-------------------------------------------------------*/
+    /*El margin se usa para separar elementos html
+    es decir se puede separar un div de una imagen q esta dentro de esta
+    y tmbn separar otros elementos*/
+    margin:15px 15px 25px 40px;
+    
+
+    
+
+    background-color: purple;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+}
+html{
+    background-color:white;
+}
+
+/*Prioridad::
+    id>clases
+*/
+#titulo{
+    color:green;
+}
+
+.texto-morado{
+    color: purple;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+/*--------------------------------------------------------
+----------------------------------------------------------
+Una clase 
+tiene mas importancioa que un elemento 
+HTML es decir no importa cual se ponga primero o ultimo
+sino el mas especifico*/
+.sin-subrayado{
+    text-decoration: none;
+    color: blue;
+}
+
+a{
+
+    text-decoration: purple wavy underline;
+}
+/*--------------------------------------------------------
+----------------------------------------------------------*/
+
+#enlace-principal{
+    color: brown;
+    text-decoration: green wavy underline;
+
+}
+/*El estilo en linea en html tiene una mayor priorizaciocn
+que */

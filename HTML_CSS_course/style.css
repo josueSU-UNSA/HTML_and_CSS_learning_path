@@ -1,0 +1,151 @@
+/*
+.title{
+    color: crimson;
+    font-family: cursive;
+    font-size: 40px;
+
+}
+.list{
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div{
+    background-color: green; 
+}
+*/
+
+/*Esto hace q podamos aplicar un mismo estilo a mas de un tipo de elemento*/
+/*
+p,
+ul,
+ol{
+    font-size: 25px;
+
+}
+*/
+
+h2 {
+   /* font-family: 'Lobster', cursive;*/
+    font-size: 200%;
+
+}
+
+ul{
+    font-family: 'Rubik Iso',sans-serif;
+
+}
+ol {
+    font-family: 'Roboto', sans-serif;
+
+}
+.caption_to_set{
+    
+    
+    max-height: 15%;
+    /*Borde=marco de imagen*/
+    /*Border width se usa para establecer el ancho de nuetro borde*/
+    border-width: 10px;
+    /*Color del borde */
+    border-color: red;
+    /*Estilo del borde*/
+    /*mientras mas parametros , habra mas variantes en un mismo marco*/
+    border-style:dotted solid dashed double;
+
+
+}
+
+
+
+footer{
+    text-align: center;
+
+}
+
+.bordes-redondeados{
+    border-radius: 50%;
+    
+}
+
+
+
+div{
+
+    background-color: green;
+    
+    border-width:10px;
+
+    border-color: black;
+    border-style: dotted;
+}
+
+#dogo-arg{
+    padding: 5%;
+    
+
+}
+
+img{
+    /*margin: 10px;*/
+    
+    /*width: 400px;
+    padding: 15px;
+    background-color: yellow;
+    */
+    border-width: 10px;
+    border-color: rosybrown;
+    border-style: solid;
+}
+
+/*From here we'll use ids to our css document*/
+
+#main_title{
+    color:lawngreen;
+}
+
+#logo_for_footer{
+    height: auto;
+    width: 10%;
+    border-width:40px;
+    border-color: black;
+    border-style: double;
+    border-radius: 50%;
+}
+
+[for]{
+    color: red;
+
+}
+
+img[alt]{
+
+    border-radius: 50%;
+
+}
+
+[type~="radio"]{
+    margin: 5px;
+}
+
+[type~="checkbox"]{
+    margin: 20px 0px 20px 5px ;
+
+}
+
+a[target~="_blank"]{
+    color: red;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: chocolate;
+    padding:10% ;
+}
+
+
+#roko-breed{
+    color: blueviolet;
+    border-color: white;
+
+}
